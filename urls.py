@@ -4,4 +4,5 @@ AUTHORIZE_URL = API_URL + "/oauth/authorize?oauth_token={request_token}"
 ACCESS_TOKEN_URL = API_URL + "/oauth/access_token"
 TIMELINE_URL = API_URL + "/1.1/statuses/home_timeline.json"
 
-FRIEND_LIST_URL = API_URL + "/1.1/friends/ids.json"
+FRIEND_ID_URL = API_URL + "/1.1/friends/ids.json"
+FRIEND_LIST_URL = API_URL + "/1.1/friends/list.json"
